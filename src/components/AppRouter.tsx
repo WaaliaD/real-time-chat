@@ -1,4 +1,3 @@
-
 import {Navigate, Route, Routes} from 'react-router-dom';
 import {privateRoutes, publicRoutes} from '../routes';
 import {CHAT_ROUTE, LOGIN_ROUTE} from '../utils/const';

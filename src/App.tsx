@@ -14,7 +14,7 @@ function App() {
     }
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/real-time-chat'>
             <AppRouter/>
         </BrowserRouter>
     );
