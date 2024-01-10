@@ -1,0 +1,34 @@
+@import "../utils/variables";
+
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 5px;
+  border: 1px solid $successButtonBorderColor;
+  border-radius: 40px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: $textColor;
+  background-color: $successButtonColor;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  transition: box-shadow 0.2s;
+}
+.btn:focus-visible {
+  border: 1px solid #4c51f9;
+  outline: none;
+}
+.btn:hover {
+  transition: all 0.2s;
+  box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+  background-color: $successButtonActiveColor;
+}

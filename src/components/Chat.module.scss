@@ -1,0 +1,47 @@
+@import "../utils/variables";
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: $asideColor;
+  height: 8vh;
+  width: 100vw;
+  user-select: none;
+}
+
+.main {
+  background-color: $backgroundColor;
+  height: 84vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $asideColor;
+  height: 8vh;
+  width: 100vw;
+
+  textarea {
+    width: 92vw;
+    padding: 5px 10px;
+    margin: 50px;
+    border: 1px solid $inputBorderColor;
+    background: $inputBackground;
+    border-radius: 15px;
+    font-weight: 400;
+  }
+}
