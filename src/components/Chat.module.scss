@@ -34,14 +34,17 @@
   background-color: $asideColor;
   height: 8vh;
   width: 100vw;
+  padding: 10px;
+  box-sizing: border-box;
 
   textarea {
-    width: 92vw;
-    padding: 5px 10px;
-    margin: 50px;
+    width: 85vw;
+    margin-right: 20px;
+    padding: 10px;
     border: 1px solid $inputBorderColor;
-    background: $inputBackground;
     border-radius: 15px;
+    background: $backgroundColor;
     font-weight: 400;
+    color: $textColor;
   }
 }
